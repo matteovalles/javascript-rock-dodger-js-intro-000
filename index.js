@@ -88,8 +88,8 @@ function createRock(x) {
    clearInterval(gameInterval);
    window.removeEventListener('keydown', moveDodger);
    alert("YOU LOSE!");
-   START.innerHTML = 'Play again?'
-   START.style.display = 'inline'
+   //START.innerHTML = 'Play again?'
+   //START.style.display = 'inline'
  }
 function moveDodger(e) {
     if (e.which === LEFT_ARROW) {
